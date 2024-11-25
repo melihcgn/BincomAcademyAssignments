@@ -1,0 +1,57 @@
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #007bff;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        position: sticky; /* Makes the header sticky */
+        top: 5px; /* Keeps the header at the top */
+        z-index: 1000; /* Ensures it appears above other content */
+    }
+    
+    header img {
+        width: 100px; /* Adjust the size as needed */
+        height: 100px; /* Ensure width and height are the same for a perfect circle */
+        border-radius: 50%; /* Makes the photo rounded */
+        margin-right: 20px; /* Adds spacing between the image and text */
+        border: 3px solid white; /* Optional: Adds a border to the photo */
+    }
+    
+    header h1 {
+        margin: 0;
+    }
+    
+    
+    section {
+        padding: 20px;
+        margin: 10px 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+    
+    section h2 {
+        color: #007bff;
+    }
+    
+    a {
+        color: #007bff;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    .profile-photo {
+        width: auto; /* Maintain original aspect ratio */
+        height: auto;
+        max-width: 200px; /* Scale down if needed */
+        border-radius: 50%; /* Make the photo rounded */
+        object-fit: cover; /* Ensure the image fits without distortion */
+    }

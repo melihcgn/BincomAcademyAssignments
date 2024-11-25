@@ -1,0 +1,27 @@
+<header>
+  <img src="MelihCaganAri-Photo.jpg" alt="My Photo" class="profile-photo" />
+  <h1>{{ title }}</h1>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>{{ aboutMe }}</p>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <ul>
+    <li *ngFor="let project of projects">
+      <strong>{{ project.name }}</strong>: {{ project.description }}
+      <br />
+      <a href="{{ project.link }}" target="_blank">View Project</a>
+    </li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: {{ contact.email }}</p>
+  <p>Phone: {{ contact.phone }}</p>
+  <p><a href="{{ contact.linkedin }}" target="_blank">LinkedIn</a></p>
+</section>
