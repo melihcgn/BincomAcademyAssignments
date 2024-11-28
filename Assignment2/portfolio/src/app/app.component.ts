@@ -9,8 +9,9 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'My Portfolio';
-
+  title = 'Melih Çağan Arı';
+  secondTitle = 'Text or Talk • +90 (553) 346-6849';
+  welcomeMessage = 'Hello, I am Melih :)';
   aboutMe = 'As a recent Computer Engineering graduate from Sabancı University, I have developed a strong foundation in frontend development with extensive experience in React, Next.js, TailwindCSS, and CSS. During my internship at Dresden Vision, I worked independently on a project, enhancing my skills in web development and problem-solving. Additionally, I have experience as a game manager and developer at a startup. In my spare time, I have been developing a game project, focusing on scalability and code quality. I am passionate about creating efficient and user-friendly applications and am actively seeking new opportunities to leverage my skills in a dynamic and collaborative environment. Beyond software projects, I am eager to explore areas such as AI, machine learning, and automation, where I can apply my problem-solving skills and contribute to cutting-edge technologies. Let\'s connect and discuss how I can contribute to your team\'s goals and explore innovative solutions together.';
   projects = [
     { name: 'Pathability', description: 'Championed a React-based web-dev project focused on creating accessible map application.', link: '#' },
