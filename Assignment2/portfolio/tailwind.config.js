@@ -4,7 +4,12 @@ module.exports = {
     "./src/**/*.{html,ts}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        parkinsans: ['Parkinsans', 'sans-serif'],
+        cinzel: ['Cinzel', 'serif'],
+      },
+    },
   },
   plugins: [],
 }
